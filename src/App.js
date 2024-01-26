@@ -1,13 +1,23 @@
 // App.js
-import React from 'react';
+import React, { useState } from 'react';
 import RegistrationForm from './RegistrationForm';
 import SignInForm from './SignInForm';
 
 const App = () => {
+  const [showSignInForm, setShowSignInForm] = useState(false);
+
+  const handleSignInOptionClick = () => {
+    setShowSignInForm(true);
+  };
+
+  const handleCloseSignInForm = () => {
+    setShowSignInForm(false);
+  };
+
   return (
     <div>
-      <RegistrationForm />
-      <SignInForm />
+      {!showSignInForm && <RegistrationForm onSignInOptionClick={handleSignInOptionClick} />}
+      {showSignInForm && <SignInForm onClose={handleCloseSignInForm} />}
     </div>
   );
 };

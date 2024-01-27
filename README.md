@@ -227,7 +227,7 @@ Authentication Service is part of User Authentication Infrastructure. It is buil
 ## Workflow ##
 
 ### Workflow Diagram ###
-![Workflow.drawio.png](Workflow.drawio.png)
+![workflow.drawio.png](workflow.drawio.png)
 
 ## Development ##
 

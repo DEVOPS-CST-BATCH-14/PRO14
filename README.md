@@ -6,7 +6,7 @@ Authentication Service is part of User Authentication Infrastructure. It is buil
 ## Use Cases ##
 
 ### Use Case Diagram ###
-![usecase.JPG](usecase.JPG)
+![usecase.drawio.png](usecase.drawio.png)
 
 ## User Stories ##
 ### G0003-001: Register ###
@@ -227,7 +227,7 @@ Authentication Service is part of User Authentication Infrastructure. It is buil
 ## Workflow ##
 
 ### Workflow Diagram ###
-![Workflow.JPG](Workflow.JPG)
+![Workflow.drawio.png](Workflow.drawio.png)
 
 ## Development ##
 

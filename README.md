@@ -42,7 +42,7 @@ Authentication Service is part of User Authentication Infrastructure. It is buil
 3. Registration page shows a "resend" button, in case the activation code is not entered in the first 5 minutes after the mail has been sent.
 4. Registration page will not show any special message if the email-ID is not reachable. It just prompts for an activation code, as usual.
 
-### G0003-002: Login with Inactive Glarimy-ID ###
+### G0003-002: Login with Inactive Email-ID ###
 
 * Actor: User with Inactive Email-ID
 

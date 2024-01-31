@@ -16,8 +16,8 @@ const App = () => {
 
   return (
     <div>
-      {!showSignInForm && <RegistrationForm onSignInOptionClick={handleSignInOptionClick} />}
-      {showSignInForm && <SignInForm onClose={handleCloseSignInForm} />}
+      {!showSignInForm && <RegistrationForm onSignInOptionClick={handleSignInOptionClick} />}//registrationform
+      {showSignInForm && <SignInForm onClose={handleCloseSignInForm} />}//signinform
     </div>
   );
 };

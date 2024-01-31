@@ -57,3 +57,17 @@ button {
 button:hover {
   background: #45a049;
 }
+/* styles.css */
+
+/* Existing styles... */
+
+/* Add styles for the registration form */
+.registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
